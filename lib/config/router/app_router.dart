@@ -35,6 +35,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const PokemonScreen(),
     ),
 
+    GoRoute(
+      path: '/private-screen',
+      builder: (context, state) => const PrivateScreen(),
+    ),
+
 
 
   ]);

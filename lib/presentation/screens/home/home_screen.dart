@@ -48,6 +48,11 @@ class _HomeScreenView extends StatelessWidget {
             subTitle: 'Bloc con futures',
             location: '/pokemon-bloc'),
 
+        _CustomListTile(
+            title: 'Pantalla privada',
+            subTitle: 'Dependencia de blocs',
+            location: '/private-screen'),
+
       ],
     );
   }
