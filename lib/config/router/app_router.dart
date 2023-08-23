@@ -14,18 +14,18 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
-      path: '/provider',
-      builder: (context, state) => const ProviderScreen(),
+      path: '/simple-cubit',
+      builder: (context, state) => const CubitScreen(),
     ),
 
     GoRoute(
-      path: '/provider-router',
+      path: '/cubit-router',
       builder: (context, state) => const RouterScreen(),
     ),
 
     GoRoute(
-      path: '/state-provider',
-      builder: (context, state) => const StateProviderScreen(),
+      path: '/cubit-state',
+      builder: (context, state) => const MultipleCubitScreen(),
     ),
 
     GoRoute(

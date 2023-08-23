@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Riverpod Providers'),
+        title: const Text('Flutter Bloc & Cubits'),
       ),
       body: const _HomeScreenView(),
     );
@@ -24,19 +24,19 @@ class _HomeScreenView extends StatelessWidget {
       children: const [
 
         _CustomListTile(
-            title: 'Provider Simple',
-            subTitle: 'Un provider de sólo lectura',
-            location: '/provider'),
+            title: 'Un Bloc simple',
+            subTitle: 'Un uso simple de un Cubit',
+            location: '/simple-cubit'),
 
         _CustomListTile(
-            title: 'Provider + Go_Router',
+            title: 'Cubit + Go_Router',
             subTitle: 'Un uso aplicado',
-            location: '/provider-router'),
+            location: '/cubit-router'),
 
         _CustomListTile(
-            title: 'State Provider',
-            subTitle: 'Un estado para almacenar un objeto',
-            location: '/state-provider'),
+            title: 'Multiples cubits',
+            subTitle: 'Multiples cubits en acción',
+            location: '/cubit-state'),
 
         _CustomListTile(
             title: 'State Provider + Provider',

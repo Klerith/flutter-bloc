@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-class StateProviderScreen extends StatelessWidget {
-  const StateProviderScreen({super.key});
+class MultipleCubitScreen extends StatelessWidget {
+  const MultipleCubitScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

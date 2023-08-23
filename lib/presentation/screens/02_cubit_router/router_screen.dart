@@ -8,7 +8,7 @@ class RouterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Provider + Go Router'),
+        title: const Text('Cubit + Go Router'),
       ),
       floatingActionButton: FloatingActionButton(
         child: const Icon( Icons.arrow_back_ios_new_rounded ),

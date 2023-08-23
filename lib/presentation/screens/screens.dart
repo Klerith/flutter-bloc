@@ -1,6 +1,6 @@
-export '01_provider/provider_screen.dart';
-export '02_provider_router/router_screen.dart';
-export '03_state_provider/state_provider_screen.dart';
+export '01_simple_cubit/cubit_screen.dart';
+export '02_cubit_router/router_screen.dart';
+export '03_multiple_cubits/state_provider_screen.dart';
 export '04_todo/todo_screen.dart';
 export '05_future_provider/future_provider_screen.dart';
 export '06_family_future_provider/future_provider_screen.dart';
