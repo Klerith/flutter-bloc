@@ -1,4 +1,4 @@
-# riverpod_app
+# blocs_app
 
 A new Flutter project.
 

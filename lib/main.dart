@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_app/config/config.dart';
+import 'package:blocs_app/config/config.dart';
 
 void main() => runApp(const MyApp());
 

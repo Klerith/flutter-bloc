@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:riverpod_app/presentation/screens/screens.dart';
+import 'package:blocs_app/presentation/screens/screens.dart';
 
 
 final appRouter = GoRouter(
