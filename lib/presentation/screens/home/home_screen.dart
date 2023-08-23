@@ -39,36 +39,15 @@ class _HomeScreenView extends StatelessWidget {
             location: '/cubit-state'),
 
         _CustomListTile(
-            title: 'State Provider + Provider',
-            subTitle: 'TODO - Una mezcla entre providers',
-            location: '/todo'),
+            title: 'Bloc - GuestBloc',
+            subTitle: 'Un bloc para el manejo de invitados',
+            location: '/guest-bloc'),
 
         _CustomListTile(
-            title: 'Future Provider',
-            subTitle: 'Mantener el estado de un future y su retorno',
-            location: '/future-provider'),
+            title: 'Pokemon Bloc',
+            subTitle: 'Bloc con futures',
+            location: '/pokemon-bloc'),
 
-        _CustomListTile(
-            title: 'Family Future Provider',
-            subTitle: 'Providers con argumentos',
-            location: '/future-family-provider'),
-
-
-        _CustomListTile(
-            title: 'Stream Provider',
-            subTitle: 'Mantener el estado de un Stream y sus emosiones',
-            location: '/stream-provider'),
-
-
-        _CustomListTile(
-            title: 'State Notifier Provider',
-            subTitle: 'Provider con notificación automática',
-            location: '/state-notifier-provider'),
-
-        _CustomListTile(
-            title: 'Change Notifier Provider',
-            subTitle: 'Provider con control de notificación a listeners',
-            location: '/change-notifier-provider'),
       ],
     );
   }

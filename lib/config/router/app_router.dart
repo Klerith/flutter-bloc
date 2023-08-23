@@ -29,33 +29,13 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
-      path: '/todo',
-      builder: (context, state) => const TodoScreen(),
+      path: '/guest-bloc',
+      builder: (context, state) => const GuestsScreen(),
     ),
 
     GoRoute(
-      path: '/future-provider',
-      builder: (context, state) => const FutureProviderScreen(),
-    ),
-
-    GoRoute(
-      path: '/future-family-provider',
-      builder: (context, state) => const FamilyFutureScreen(),
-    ),
-
-    GoRoute(
-      path: '/stream-provider',
-      builder: (context, state) => const StreamProviderScreen(),
-    ),
-
-    GoRoute(
-      path: '/change-notifier-provider',
-      builder: (context, state) => const ChangeNotifierScreen(),
-    ),
-
-    GoRoute(
-      path: '/state-notifier-provider',
-      builder: (context, state) => const StateNotifierScreen(),
+      path: '/pokemon-bloc',
+      builder: (context, state) => const PokemonScreen(),
     ),
 
 

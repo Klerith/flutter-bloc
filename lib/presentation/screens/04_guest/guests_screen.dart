@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 
-class TodoScreen extends StatelessWidget {
-  const TodoScreen({super.key});
+class GuestsScreen extends StatelessWidget {
+  const GuestsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('State Provider + Providers'),
+        title: const Text('Bloc - GuestBloc'),
       ),
       body: const _TodoView(),
       floatingActionButton: FloatingActionButton(

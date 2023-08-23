@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 
-class FutureProviderScreen extends StatelessWidget {
-  const FutureProviderScreen({super.key});
+class PokemonScreen extends StatelessWidget {
+  const PokemonScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Future Provider'),
+        title: const Text('Bloc con Futures'),
       ),
       body: const Center(
         child: Text('Fernando Herrera'),
