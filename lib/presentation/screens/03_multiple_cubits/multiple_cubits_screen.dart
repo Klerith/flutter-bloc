@@ -8,7 +8,7 @@ class MultipleCubitScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('State Provider'),
+        title: const Text('Multiple Cubits'),
       ),
       body: Center(
         child: Column(
