@@ -36,8 +36,8 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
-      path: '/private-screen',
-      builder: (context, state) => const PrivateScreen(),
+      path: '/blocs-with-blocs',
+      builder: (context, state) => const BlocsWithBlocsScreen(),
     ),
 
 

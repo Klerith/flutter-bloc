@@ -51,7 +51,7 @@ class _HomeScreenView extends StatelessWidget {
         _CustomListTile(
             title: 'Blocs con Blocs',
             subTitle: 'Blocs que dependen de otros blocs',
-            location: '/private-screen'),
+            location: '/blocs-with-blocs'),
 
       ],
     );

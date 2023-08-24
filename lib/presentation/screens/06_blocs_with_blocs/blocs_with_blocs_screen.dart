@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 
-class PrivateScreen extends StatelessWidget {
-  const PrivateScreen({super.key});
+class BlocsWithBlocsScreen extends StatelessWidget {
+  const BlocsWithBlocsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Private Screen'),
+        title: const Text('Blocs con Blocs'),
       ),
       body: const Center(
-        child: Text('Pantalla privada'),
+        child: Text('Varios blocs dependientes'),
       ),
     );
   }
